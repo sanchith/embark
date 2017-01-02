@@ -1,0 +1,18 @@
+/* GLOBAL PAGE STYLING*/
+html, body {
+  width: 100%;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+p, a {
+  font-family: sans-serif;
+  font-weight: 400; }
+
+.landingLeft {
+  color: blue; }
+
+/*# sourceMappingURL=style.css.map */
