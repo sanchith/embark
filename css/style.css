@@ -1,0 +1,114 @@
+/* GLOBAL PAGE STYLING*/
+html, body {
+  width: 100%;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #2b303a;
+  text-transform: uppercase; }
+
+p, a {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2b303a; }
+
+.landingLeft {
+  float: left;
+  width: 78%; }
+
+.landingRight {
+  float: right;
+  width: 22%;
+  height: 1200px;
+  background-color: #2b303a; }
+
+.landingHero {
+  clear: both;
+  background-image: url("../images/heroImg1.jpg");
+  background-size: cover;
+  background-position: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%; }
+  .landingHero .landingHeroOverlay {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3); }
+    .landingHero .landingHeroOverlay .landingHeroTitle {
+      width: 45%;
+      padding: 2% 2%;
+      padding-top: 25%; }
+      .landingHero .landingHeroOverlay .landingHeroTitle img {
+        height: 70%;
+        width: 80%;
+        display: block;
+        margin: 0 auto; }
+
+.landingSummary {
+  margin: 5% 10%;
+  margin-bottom: 8%; }
+
+.landingFeatures {
+  margin: 5% 10%; }
+  .landingFeatures .landingFeatureItem {
+    float: left;
+    width: 20%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #f7f7f7; }
+    .landingFeatures .landingFeatureItem .fa {
+      margin-left: 20%;
+      margin-top: 7%;
+      color: #2b303a; }
+    .landingFeatures .landingFeatureItem img {
+      height: 63px;
+      width: 63px;
+      margin-left: 25%;
+      margin-top: 5%; }
+    .landingFeatures .landingFeatureItem .landingFeatureText {
+      margin-top: 10%; }
+  .landingFeatures .landingFeatureMiddle {
+    margin-right: 11%;
+    margin-left: 11%; }
+
+.landingLogin {
+  clear: both; }
+  .landingLogin p {
+    text-align: center;
+    color: white; }
+    .landingLogin p a {
+      text-decoration: none;
+      font-weight: bolder;
+      color: #ff5a5f; }
+  .landingLogin .landingLoginForm {
+    margin: 10% 10%;
+    margin-top: 50%;
+    text-align: center; }
+    .landingLogin .landingLoginForm h2 {
+      color: white; }
+    .landingLogin .landingLoginForm form .name, .landingLogin .landingLoginForm form .password {
+      margin-top: 15%;
+      padding: 10px 25px;
+      width: 60%;
+      border-radius: 5px;
+      border-bottom: 3px solid #5299d3; }
+    .landingLogin .landingLoginForm form .loginButton {
+      font-size: 17px;
+      color: #ffffff;
+      border-radius: 5px;
+      padding: 10px 25px;
+      background-color: #ff5a5f;
+      border: none;
+      margin: 0 auto;
+      margin-top: 25%; }
+
+.landingRegister {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
