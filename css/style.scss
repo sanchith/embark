@@ -34,7 +34,7 @@ p, a {
 
 .landingHero {
   clear: both;
-  background-image: url("../images/coffeeMeeting.jpg");
+  background-image: url("../images/heroImg1.jpg");
   background-size: cover;
   background-position: contain;
   background-repeat: no-repeat;
@@ -43,12 +43,13 @@ p, a {
   .landingHeroOverlay {
     height: 500px;
     width: 100%;
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .3);
     .landingHeroTitle {
       width: 45%;
       padding: 2% 2%;
-      margin: 0 auto;
-      padding-top: 20%;
+      // margin-top: 10%;
+      // margin-left: 1%;
+      padding-top: 25%;
       img {
         height: 70%;
         width: 80%;
@@ -107,7 +108,7 @@ p, a {
     a {
       text-decoration: none;
       font-weight: bolder;
-      color: #5299d3;
+      color: #ff5a5f;
     }
   }
   .landingLoginForm {
@@ -123,14 +124,15 @@ p, a {
         padding: 10px 25px;
         width: 60%;
         border-radius: 5px;
-        border-bottom: 2px solid #ff5a5f;
+        border-bottom: 3px solid #5299d3;
       }
       .loginButton {
         font-size: 17px;
         color: #ffffff;
         border-radius: 5px;
         padding: 10px 25px;
-        background-color: #5299d3;
+        // background-color: #5299d3;
+        background-color: #ff5a5f;
         border: none;
         margin: 0 auto;
         margin-top: 25%;
