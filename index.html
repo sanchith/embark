@@ -4,37 +4,39 @@
     <meta charset="utf-8">
     <title>TIY Final Project - Embark</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <div class="landingLeft">
-      <p> Test Test Test</p>
 
       <div class="landingHero">
-        <a href="index.html"><img src="images/logo.png"></a>
-        <div class="landingTitle">
-          <h1>Embark!</h1>
-          <p class="landingBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="landingHeroOverlay">
+          <div class="landingHeroTitle">
+            <img src="images/embarkTitle.png">
+            <!-- <p class="landingBlurb">Ready to change careers?</p> -->
+          </div>
         </div>
       </div>
 
       <div class="landingSummary">
-        <p class="landingMarketing">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="landingMarketing">These days, changing a career many times is common. But it can be scary, too. With millions of job titles and possibilities, it can even feel like there are too many options. Built by career-changers, Embark! is here to help you decide what direction to take.</p>
       </div>
 
       <div class="landingFeatures">
         <div class="landingFeatureItem">
-          <img src="images/icon1.png">
-          <p class="landingFeatureText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <i class="fa fa-4x fa-cogs" aria-hidden="true"></i>
+          <p class="landingFeatureText">Not even sure what industry you’re interested in? We know exactly how you feel. We’ll take you through a short quiz to narrow down your options.</p>
+        </div>
+        <div class="landingFeatureItem landingFeatureMiddle">
+          <i class="fa fa-4x fa-comments" aria-hidden="true"></i>
+          <p class="landingFeatureText">Care about company culture? Know that equal work/life balance is a must? We’ll help you find companies that have the culture you’re looking for.</p>
         </div>
         <div class="landingFeatureItem">
-          <img src="images/icon2.png">
-          <p class="landingFeatureText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div class="landingFeatureItem">
-          <img src="images/icon3.png">
-          <p class="landingFeatureText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <img src="images/embarkicon.png">
+          <p class="landingFeatureText">By making the decision to change your career, you’re already halfway there. Let us help you take charge of your own path and get ready to Embark!</p>
         </div>
       </div>
 
@@ -44,17 +46,19 @@
     <div class="landingRight">
 
       <div class="landingLogin">
-        <p class="landingRegister">New to Embark?<a href="#">Register</a></p>
+        <p>New to Embark? <a href="#">Register</a></p>
+
+        <div class="landingLoginForm">
         <h2>Login</h2>
-        <div class="landingInput">
-          <form>
-            username: <input type="text" name="user_id" />
-            <br>
-            password: <input type="password" name="password" />
-          </form>
-          <button class="submit">submit</button>
-        </div>
+        <form>
+            <input class="name" type="text" id="username" name="user_name" placeholder="username"/>
+
+            <input class="password" type="password" id="password" name="password" placeholder="password"/>
+
+            <button class="loginButton" type="submit">submit</button>
+        </form>
       </div>
+    </div>
 
       <div class="landingRegister">
         <h2>Register</h2>
