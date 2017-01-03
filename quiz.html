@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TIY Final Project - Embark</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="quizLeft">
+      <div class="quizHero">
+        <a href="index.html"><img src="images/embarkTransLogoRed.png"></a>
+        <div class="quizTitle">
+          <h1>Welcome, Username!</h1>
+          <p class="quizBlurb">Starting out on a new career path is exciting, but can be overwhelming. There are many industries, jobs, and paths you can take! As a start, take our short quiz to help you narrow down your industry options to learn more about what might be a good fit.</p>
+        </div>
+      </div>
+
+      <div class="quizInstructions">
+        <p>Ready to find your new career?</p>
+        <p>Let's get started! Answer 'Yes' or 'No' depending on how you feel about the statement. </p>
+      </div>
+
+      <div class="quizQuestions">
+        <div class="quizItem">
+          <p class="quizItemText">I love working in an office</p>
+            <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Yes</label><br/>
+            <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">No</label><br/>
+        </div>
+        <div class="quizItem">
+          <p class="quizItemText">I like working with people</p>
+            <input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Yes</label><br/>
+            <input type="radio" name="q2" value="b" id="q2b"><label for="q2b">No</label><br/>
+        </div>
+        <div class="quizItem">
+          <p class="quizItemText">I enjoy providing great customer service</p>
+            <input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Yes</label><br/>
+            <input type="radio" name="q3" value="b" id="q3b"><label for="q3b">No</label><br/>
+        </div>
+        <div class="quizItem">
+          <p class="quizItemText">I love to be persuasive</p>
+            <input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Yes</label><br/>
+            <input type="radio" name="q4" value="b" id="q4b"><label for="q4b">No</label><br/>
+        </div>
+        <div class="quizItem">
+          <p class="quizItemText">I love to be creative</p>
+            <input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Yes</label><br/>
+            <input type="radio" name="q5" value="b" id="q5b"><label for="q5b">No</label><br/>
+        </div>
+        <div class="quizItem">
+          <p class="quizItemText">I would love to own my own firm</p>
+            <input type="radio" name="q6" value="a" id="q6a"><label for="q6a">Yes</label><br/>
+            <input type="radio" name="q6" value="b" id="q6b"><label for="q6b">No</label><br/>
+        </div>
+        <div class="quizItem">
+          <p class="quizItemText">I love to write</p>
+            <input type="radio" name="q7" value="a" id="q7a"><label for="q7a">Yes</label><br/>
+            <input type="radio" name="q7" value="b" id="q7b"><label for="q7b">No</label><br/>
+        </div>
+      </div>
+
+    </div>
+    <!-- end of left column -->
+
+    <div class="quizRight">
+      <div class="nav">
+        <ul>
+          <li><a href="#">First Link</a></li>
+          <li><a href="#">Second Link</a></li>
+          <li><a href="#">Third Link</a></li>
+        </ul>
+      </div>
+
+      <div class="quizRightInstructions">
+        <p>Already know the direction you're headed?
+          <br>
+          Skip the quiz and select your
+          top three industry choices.</p>
+      </div>
+
+      <select name="ingredients[]" multiple="multiple" size="7">
+         <option value="Art/Design/Entertainment">Art/Design/Entertainment</option>
+         <option value="Beauty/Wellness">Beauty/Wellness </option>
+         <option value="Education">Education</option>
+         <option value="Facilities/General Labor">Facilities/General Labor</option>
+         <option value="Hospitality">Hospitality </option>
+         <option value="Installation/Maintenance/Repair">Installation/Maintenance/Repair</option>
+         <option value="Medical/Healthcare">Medical/Healthcare</option>
+         <option value="Restaurant / Food Services">Restaurant / Food Services </option>
+         <option value="Retail">Retail</option>
+         <option value="Sales / Customer Care">Sales / Customer Care</option>
+         <option value="Security / Law Enforcement">Security / Law Enforcement</option>
+         <option value="Skilled Trade">Skilled Trade</option>
+         <option value="Sports / Fitness">Sports / Fitness</option>
+         <option value="Travel / Transportation">Travel / Transportation </option>
+         <option value="Administrative">Administrative</option>
+         <option value="Accounting / Finance">Accounting / Finance</option>
+         <option value="Analyst">Analyst </option>
+         <option value="Architecture / Drafting">Architecture / Drafting</option>
+         <option value="Banking / Loan / Insurance">Banking / Loan / Insurance</option>
+         <option value="Business Development / Consulting">Business Development / Consulting</option>
+         <option value="Engineering (Non-software)">Engineering (Non-software)</option>
+         <option value="Human Resources">Human Resources</option>
+         <option value="Legal">Legal</option>
+         <option value="Manufacturing / Production / Construction">Manufacturing / Production / Construction</option>
+         <option value="Marketing / Advertising / PR">Marketing / Advertising / PR</option>
+         <option value="Non-Profit / Volunteering">Non-Profit / Volunteering</option>
+         <option value="Product / Project Management">	Product / Project Management</option>
+         <option value="Real Estate">Real Estate</option>
+         <option value="Science / Research">Science / Research</option>
+         <option value="Senior Management">Senior Management</option>
+         <option value="Software Development / IT">Software Development / IT</option>
+         <option value="Writing / Editing / Publishing">Writing / Editing / Publishing</option>
+         ...
+      </select>
+      <button class="submit">submit</button>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
