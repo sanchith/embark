@@ -1,3 +1,6 @@
+$font: 'Montserrat', sans-serif;
+
+
 .quizEmbarkLogo {
   height: 70px;
   padding: 3%;
@@ -119,7 +122,8 @@ p {
     }
   }
   .quizButton {
-    font-size: 17px;
+    font-size: 15px;
+    font-family: $font;
     color: #ffffff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -173,11 +177,11 @@ p {
     margin-left: 7%;
   }
   .quizButton {
-    font-size: 17px;
+    font-size: 15px;
+    font-family: $font;
     color: #ffffff;
     border-radius: 5px;
     padding: 10px 25px;
-    // background-color: #5299d3;
     background-color: #ff5a5f;
     border: none;
     margin-left: 8%;

@@ -1,5 +1,7 @@
 @import "quiz";
 
+$font: 'Montserrat', sans-serif;
+
 /* GLOBAL PAGE STYLING*/
 html, body {
   width: 100%;
@@ -7,7 +9,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: sans-serif;
+	font-family: $font;
 	font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.05em;
@@ -16,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, a {
-  font-family: sans-serif;
+  font-family: $font;
 	font-weight: 400;
   line-height: 1.5;
   color: #2b303a;
@@ -130,10 +132,10 @@ p, a {
       }
       .loginButton {
         font-size: 17px;
+        font-family: $font;
         color: #ffffff;
         border-radius: 5px;
         padding: 10px 25px;
-        // background-color: #5299d3;
         background-color: #ff5a5f;
         border: none;
         margin: 0 auto;

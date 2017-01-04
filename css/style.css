@@ -85,7 +85,8 @@ p {
     .quizLeft .quizQuestions .q7 {
       display: none; }
   .quizLeft .quizButton {
-    font-size: 17px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -125,7 +126,8 @@ p {
     margin-top: 2%;
     margin-left: 7%; }
   .quizRight .quizButton {
-    font-size: 17px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -144,7 +146,7 @@ html, body {
   margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.05em;
@@ -152,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase; }
 
 p, a {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #2b303a; }
@@ -240,6 +242,7 @@ p, a {
       border-bottom: 3px solid #5299d3; }
     .landingLogin .landingLoginForm form .loginButton {
       font-size: 17px;
+      font-family: "Montserrat", sans-serif;
       color: #ffffff;
       border-radius: 5px;
       padding: 10px 25px;
