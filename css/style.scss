@@ -10,7 +10,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font;
-	font-weight: 500;
+	font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0.05em;
   color: #2b303a;
@@ -32,7 +32,7 @@ p, a {
 .landingRight {
   float: right;
   width: 22%;
-  height: 1200px;
+  height: 1100px;
   background-color: #2b303a;
 }
 
@@ -44,6 +44,7 @@ p, a {
   background-repeat: no-repeat;
   height: 500px;
   width: 100%;
+  border-bottom: 25px solid #5299d3;
   .landingHeroOverlay {
     height: 500px;
     width: 100%;
@@ -51,8 +52,7 @@ p, a {
     .landingHeroTitle {
       width: 45%;
       padding: 2% 2%;
-      // margin-top: 10%;
-      // margin-left: 1%;
+      padding-left: 1%;
       padding-top: 25%;
       img {
         height: 70%;
@@ -84,18 +84,24 @@ p, a {
     padding-right: 3%;
     background-color: #f7f7f7;
     .fa {
-      margin-left: 20%;
+      margin-left: 25%;
       margin-top: 7%;
-      color: #2b303a;
+      // color: #2b303a;
+      color: #5299d3;
+    }
+    .fa-comments {
+      margin-left: 30%;
     }
     img {
       height: 63px;
       width: 63px;
-      margin-left: 25%;
+      margin-left: 30%;
       margin-top: 5%;
     }
     .landingFeatureText {
-      margin-top: 10%;
+      margin-top: 15%;
+      font-size: 15px;
+      text-align: left;
     }
   }
   .landingFeatureMiddle {
@@ -109,6 +115,7 @@ p, a {
   p {
     text-align: center;
     color: white;
+    font-size: 16px;
     a {
       text-decoration: none;
       font-weight: bolder;
@@ -128,10 +135,10 @@ p, a {
         padding: 10px 25px;
         width: 60%;
         border-radius: 5px;
-        border-bottom: 3px solid #5299d3;
+        border-bottom: 5px solid #5299d3;
       }
       .loginButton {
-        font-size: 17px;
+        font-size: 15px;
         font-family: $font;
         color: #ffffff;
         border-radius: 5px;
@@ -139,7 +146,11 @@ p, a {
         background-color: #ff5a5f;
         border: none;
         margin: 0 auto;
-        margin-top: 25%;
+        margin-top: 28%;
+      }
+      .loginButton:hover {
+        color: #ff5a5f;
+        background-color: white;
       }
     }
   }
