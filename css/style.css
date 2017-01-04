@@ -96,7 +96,6 @@ p {
   .quizLeft .quizButton:hover {
     background-color: #ffffff;
     color: #ff5a5f;
-    border: 2px solid #ff5a5f;
     box-sizing: border-box; }
 
 .quizRight {
@@ -137,7 +136,6 @@ p {
   .quizRight .quizButton:hover {
     background-color: #ffffff;
     color: #ff5a5f;
-    border: 2px solid #ff5a5f;
     box-sizing: border-box; }
 
 /* GLOBAL PAGE STYLING*/
