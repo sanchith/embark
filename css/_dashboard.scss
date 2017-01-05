@@ -1,0 +1,28 @@
+
+@import "variables";
+
+.dashboardBody {
+  background-color: $greybackground;
+}
+
+.quizEmbarkLogo {
+  padding: 2% 2%;
+}
+
+.dashboardTitle {
+  text-align: center;
+  .dashboardHeadingText {
+  }
+}
+
+.dashboardToplists{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  .dashboardItem {
+    height: 350px;
+    width: 200px;
+    background-color: $sky;
+  }
+}
