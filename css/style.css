@@ -44,7 +44,8 @@
     padding: 1%;
     padding-left: 3%;
     padding-right: 3%;
-    background-color: #f7f7f7; }
+    background-color: #f7f7f7;
+    border-radius: 5px; }
     .landingFeatures .landingFeatureItem .fa {
       display: block;
       text-align: center;
@@ -272,12 +273,72 @@ p {
   margin-left: 10%; }
 
 .industriesItem {
-  height: 350px; }
+  height: 350px;
+  border-bottom: 20px solid #ff5A5F; }
   .industriesItem .industriesText {
     color: #2B303A;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center; }
+
+.nextSteps {
+  clear: both;
+  margin-top: 40%;
+  text-align: center; }
+  .nextSteps .nextStepsText {
+    color: #2B303A; }
+  .nextSteps .nextButton {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: #ff5a5f;
+    border: none;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 3%; }
+  .nextSteps .nextButton:hover {
+    color: #ff5a5f;
+    background-color: white; }
+
+.jobslistBody {
+  background-color: #EDEDED; }
+
+.jobslistTitle {
+  margin-bottom: 6%; }
+  .jobslistTitle .quizEmbarkLogo {
+    padding: 2% 2%; }
+  .jobslistTitle .jobslistTitle {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+.industriesItem .industriesText {
+  color: #2B303A;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center; }
+
+.nextSteps {
+  clear: both;
+  margin: 3% 10%;
+  margin-top: 43%;
+  text-align: center; }
+  .nextSteps .nextStepsText {
+    color: #2B303A; }
+  .nextSteps .nextButton {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: #ff5a5f;
+    border: none;
+    margin: 0 auto;
+    margin-top: 1%; }
+  .nextSteps .nextButton:hover {
+    color: #ff5a5f;
+    background-color: white; }
 
 .dashboardBody {
   background-image: url("../images/dashboardHero3.jpg");
