@@ -46,11 +46,10 @@
     padding-right: 3%;
     background-color: #f7f7f7; }
     .landingFeatures .landingFeatureItem .fa {
-      margin-left: 25%;
+      display: block;
+      text-align: center;
       margin-top: 7%;
       color: #5299d3; }
-    .landingFeatures .landingFeatureItem .fa-comments {
-      margin-left: 30%; }
     .landingFeatures .landingFeatureItem img {
       height: 63px;
       width: 63px;
@@ -244,6 +243,22 @@ p {
     background-color: #ffffff;
     color: #ff5a5f;
     box-sizing: border-box; }
+
+.industriesBody {
+  background-color: #EDEDED; }
+
+.industriesTitle .quizEmbarkLogo {
+  padding: 2% 2%; }
+.industriesTitle .industriesTitle {
+  margin-left: 10%; }
+
+.industriesItem {
+  height: 350px; }
+  .industriesItem .industriesText {
+    color: #2B303A;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center; }
 
 /* GLOBAL PAGE STYLING*/
 html, body {
